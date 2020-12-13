@@ -1,0 +1,327 @@
+// Footer Component Style.
+
+.footer {
+  background: #60c9dc;
+  background: -moz-linear-gradient(left, #60c9dc 0%, #4faed5 50%, #3d90ce 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #60c9dc 0%,
+    #4faed5 50%,
+    #3d90ce 100%
+  );
+  background: linear-gradient(to right, #60c9dc 0%, #4faed5 50%, #3d90ce 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60c9dc', endColorstr='#3d90ce',GradientType=1 );
+  .container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    .leftBlock {
+      display: flex;
+      flex-direction: column;
+      width: 33%;
+      .leftBlock_img {
+        width: 100px;
+      }
+      .leftBlock_text {
+        font-family: "Segoi";
+        font-size: 16px;
+        color: #fff;
+        padding-top: 20px;
+        line-height: 25px;
+      }
+      .centerBlock_1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        display: none;
+        .centerBlock_menu_1 {
+          li {
+            padding-top: 10px;
+            a {
+              font-family: "Open_Sans_SemiBold";
+              color: #fff;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .leftBlock_contact {
+        display: flex;
+        flex-direction: row;
+        .leftBlock_instagram {
+          margin: 0 20px;
+        }
+        .blockGoogle_img {
+          width: 20px;
+          height: 20px;
+          position: relative;
+          bottom: 2px;
+        }
+      }
+    }
+    .centerBlock {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 70%;
+      .centerBlock_menu {
+        li {
+          padding-top: 10px;
+          a {
+            font-family: "Open_Sans_SemiBold";
+            color: #fff;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .rightBlock {
+      display: flex;
+      flex-direction: column;
+
+      width: 33%;
+      .rightBlock_menu {
+        display: none;
+      }
+      h3 {
+        color: #fff;
+        padding-top: 10px;
+        font-size: 24px;
+        font-family: "Open_Sans_SemiBold";
+        text-align: start;
+        font-weight: bold;
+      }
+      .leftBlock_contactUsBlock {
+        display: flex;
+        flex-direction: column;
+        .leftBlock_img {
+          width: 25px;
+          height: 20px;
+          margin-top: 5px;
+        }
+        .leftBlock_contactUs {
+          display: flex;
+          flex-direction: row;
+          p {
+            padding-left: 15px;
+            color: #fff;
+            font-size: 16px;
+            font-family: "Open_Sans_Regular";
+          }
+          span {
+            display: block;
+            color: #fff;
+          }
+        }
+      }
+    }
+    .Block_title {
+      color: #fff;
+      font-size: 28px;
+      font-weight: bolder;
+      font-style: oblique;
+    }
+  }
+  .social_Icon {
+    width: 20px;
+    height: 20px;
+  }
+  .payment_Icon {
+    width: 66px;
+    height: 32px;
+  }
+  .card-component {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .footer {
+    .container {
+      max-width: 1220px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      .leftBlock {
+        width: 50%;
+        margin-top: 25px;
+        .leftBlock_img {
+          width: 100px;
+        }
+        .leftBlock_text {
+          display: none;
+        }
+        .centerBlock_1 {
+          display: block;
+        }
+        .leftBlock_contact {
+          display: none;
+          flex-direction: row;
+          .leftBlock_instagram {
+            margin: 0 20px;
+          }
+        }
+      }
+      .centerBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        display: none;
+        .centerBlock_menu {
+          li {
+            padding-top: 10px;
+            a {
+              font-family: "Open_Sans_SemiBold";
+              color: #fff;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .rightBlock {
+        width: 50%;
+        margin-top: 25px;
+        .rightBlock_menu {
+          display: flex;
+          flex-direction: row;
+          ul {
+            display: flex;
+            .leftBlock_instagram {
+              margin: 0 20px;
+            }
+          }
+        }
+        h3 {
+          color: #fff;
+          padding-top: 10px;
+          font-size: 24px;
+          font-family: "Open_Sans_SemiBold";
+          text-align: start;
+          font-weight: bold;
+        }
+        .leftBlock_contactUsBlock {
+          display: flex;
+          flex-direction: column;
+          .leftBlock_contactUs {
+            display: flex;
+            flex-direction: row;
+
+            img {
+              margin-top: 0;
+              width: 20px;
+              height: 20px;
+            }
+            p {
+              padding-left: 15px;
+              color: #ffffff;
+              font-size: 16px;
+              font-family: "Open_Sans_Regular";
+            }
+          }
+        }
+      }
+      .blockGoogle_img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .footer {
+    background: #60c9dc;
+    display: flex;
+    .container {
+      max-width: 1220px;
+      box-sizing: border-box;
+      display: block;
+      .leftBlock {
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        .leftBlock_img {
+          width: 100px;
+        }
+        .leftBlock_text {
+          display: none;
+        }
+        .centerBlock_1 {
+          display: block;
+        }
+        .leftBlock_contact {
+          display: none;
+          flex-direction: row;
+          .leftBlock_instagram {
+            margin: 0 20px;
+          }
+        }
+      }
+      .centerBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        display: none;
+        .centerBlock_menu {
+          li {
+            padding-top: 10px;
+            a {
+              font-family: "Open_Sans_SemiBold";
+              color: #fff;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .rightBlock {
+        float: left;
+        width: 100%;
+        padding-bottom: 25px;
+        .rightBlock_menu {
+          display: flex;
+          flex-direction: row;
+          ul {
+            display: flex;
+            .leftBlock_instagram {
+              margin: 0 20px;
+            }
+          }
+        }
+        h3 {
+          color: #fff;
+          padding-top: 10px;
+          font-size: 24px;
+          font-family: "Open_Sans_SemiBold";
+          text-align: start;
+          font-weight: bold;
+        }
+        .leftBlock_contactUsBlock {
+          display: flex;
+          flex-direction: column;
+          .leftBlock_contactUs {
+            display: flex;
+            flex-direction: row;
+
+            img {
+              margin-top: 0;
+              width: 20px;
+              height: 20px;
+            }
+            p {
+              padding-left: 15px;
+              color: #fff;
+              font-size: 16px;
+              font-family: "Open_Sans_Regular";
+            }
+          }
+        }
+      }
+    }
+  }
+  .card-component {
+    display: block;
+  }
+}

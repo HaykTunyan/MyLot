@@ -1,0 +1,32 @@
+.login-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .login-title {
+    h3 {
+      font-size: 30px;
+      color: #000;
+      font-family: "Monsterrat Medium";
+      margin-bottom: 10px;
+    }
+  }
+  .login-text {
+    display: flex;
+    flex-direction: row;
+    span {
+      display: block;
+      font-size: 17px;
+    }
+    a {
+      color: #000;
+    }
+    .login-subTitle {
+      font-family: "Segoi";
+    }
+    .login-login {
+      font-family: "Open-Sans Bold";
+      padding-left: 15px;
+    }
+  }
+}

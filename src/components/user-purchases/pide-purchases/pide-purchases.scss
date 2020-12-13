@@ -1,0 +1,55 @@
+.pide-product {
+  .user-pide-product {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .user-pide-product-list {
+      display: flex;
+      width: calc(50% - 10px);
+    }
+  }
+}
+
+.awaiting-product {
+  .button-success {
+    border: 1px solid #3498db;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 120px;
+    color: #3498db;
+  }
+  .button-cancel {
+    border: 1px solid #c62828;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 120px; 
+    color: #c62828;
+  }
+}
+
+@media (max-width: 700px) {
+  .pide-product {
+    .user-pide-product {
+      display: block;
+      .user-pide-product-list {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 991px) {
+  .cardProduct {
+    .purchases_img {
+      width: 40%;
+    }
+  } 
+}
+
+

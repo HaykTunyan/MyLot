@@ -1,0 +1,30 @@
+
+.slick-img{
+    &:hover{
+        animation: imgZoom 2s forwards;
+    }
+}
+.slickImg {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+// .react-slider__lens{
+//     width: 100px !important;
+// }
+
+.carousel .thumbs-wrapper {
+    width: auto;
+} 
+
+@keyframes imgZoom {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(10,10);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}

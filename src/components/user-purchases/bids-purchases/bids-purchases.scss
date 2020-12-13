@@ -1,0 +1,122 @@
+.bids-product {
+  .user-bids-product {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .user-bid-product-list {
+      display: flex;
+      width: calc(50% - 10px);
+    }
+  }
+}
+
+.bid-product-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  .bid-product-edit {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    .user-product-text{
+      display: flex;
+      margin-left: 10px;
+      p {
+        width: 135px;
+        font-family: "Open_Sans_Regular";
+        font-size: 14px;
+      }
+      span {
+        font-family: "Open_Sans_SemiBold";
+        font-size: 14px;
+        color: #000;
+      }
+    }
+  }
+  .bid-product-btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    .product-icon {
+      outline: none;
+      border: none;
+      background-color: transparent;
+    }
+  }
+} 
+
+.user-product-content {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  h4 {
+    padding-top: 10px;
+    // margin-bottom: 25px;
+    text-align: left;
+    padding-left: 10px;
+    font-family: "Monsterrat Medium";
+    font-size: 16px;
+    // max-width: 235px;
+  }
+  .user-product-text {
+    display: flex;
+    margin-left: 10px;
+    // margin-bottom: -10px;
+    p {
+      width: 135px;
+      font-family: "Open_Sans_Regular";
+      font-size: 14px;
+    }
+    span {
+      font-family: "Open_Sans_SemiBold";
+      font-size: 14px;
+      color: #000;
+    }
+  }
+  .user-product-edit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    a {
+      display: block;
+      text-align: center;
+    }
+    
+  }
+  .bid-now {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    .addBid {
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border-radius: 5px;
+      border: 2px solid #0288d1;
+      opacity: 1;
+      color: #0288d1;
+      width: 100px;
+      font-size: 11px;
+    }
+  }
+}
+
+
+
+@media (max-width: 700px) {
+  .bids-product {
+    .user-bids-product {
+      display: block;
+      .user-bid-product-list {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 991px) {
+  .bids-product {
+    .purchases_img {
+      width: 40%;
+    }
+  } 
+}

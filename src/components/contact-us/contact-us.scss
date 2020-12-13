@@ -1,0 +1,64 @@
+//  Contact Us Style.
+
+.contactus-container {
+  .conatact_ImgTwo {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sednBtn {
+    background: #0288d1 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+  }
+  .sednBtn {
+    background: #0288d1 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    font: SemiBold 14px/19px Open Sans;
+    letter-spacing: 0.42px;
+    color: #ffffff;
+  }
+  .contact-title {
+    font: Medium 22px/27px Montserrat;
+    letter-spacing: 0.44px;
+    color: #000000;
+    opacity: 1;
+  }
+  .contact-subtitle {
+    text-align: center;
+    font: Regular 16px/21px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  .contactus-container {
+    .contact-info {
+      position: relative;
+      bottom: 50px;
+    }
+  }
+}
+.contact-input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+  input,
+  textarea {
+    width: 350px;
+    border: 1px solid #3498db;
+    border-radius: 10px;
+    padding: 8px;
+    letter-spacing: 1px;
+  }
+}
+.contact-info {
+  button {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+  }
+}

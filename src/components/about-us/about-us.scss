@@ -1,0 +1,42 @@
+// About Us Style.
+
+.about-img {
+  height: 200px;
+  width: 100%;
+}
+.about-us-soc {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  ul {
+    li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+  }
+  .blockGoogle_img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-container {
+    .about-info {
+      margin-top: 100px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .about-container {
+    .about-top-img,
+    .about-bottom-img {
+      width: 50%;
+    }
+    .about-info {
+      position: relative;
+      bottom: 50px;
+    }
+  }
+}

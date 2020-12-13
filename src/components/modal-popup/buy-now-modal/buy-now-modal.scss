@@ -1,0 +1,24 @@
+.button-component {
+  margin-left: 15px;
+  button {
+    height: 40px;
+  }
+}
+
+.buyCancel {
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 3px;
+  width: 100px;
+  border-color: #fff;
+  padding: 3px 5px;
+}
+
+.buySucces {
+  background-color: #0288d1;
+  color: #fff;
+  border-radius: 3px;
+  border-color: #fff;
+  width: 100px;
+  padding: 3px 5px;
+}

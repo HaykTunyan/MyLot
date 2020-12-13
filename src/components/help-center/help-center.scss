@@ -1,0 +1,34 @@
+// Help Center Style.
+
+.help-center {
+  .help-center-top {
+    max-width: 100%;
+  }
+  .help-center-block {
+    li {
+      font-size: 24px;
+      color: #000;
+      font-family: "Monsterrat Medium";
+      cursor: pointer;
+      &:hover {
+        color: #3d90ce;
+      }
+    }
+    p {
+      font-size: 18px;
+      padding-top: 10px;
+      padding-left: 25px;
+    }
+  }
+  .help-img-two {
+    display: flex;
+    justify-content: flex-end;
+    .help_under {
+      width: 100%;
+    }
+  }
+  .payment_Icon {
+    width: 100px;
+    height: 35px;
+  }
+}

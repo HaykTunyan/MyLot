@@ -1,0 +1,43 @@
+// Search Style.
+
+.search-block {
+  margin-top: 15px;
+  margin-left: 15px;
+  .search-animate-input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 175px;
+    .search-animate {
+      font-family: "Open_Sans_Regular";
+      padding-left: 10px;
+      background: transparent;
+      border: none;
+      color: #fff;
+      letter-spacing: 1px;
+      font-size: 16px;
+      animation: search-animate 1s;
+      width: 150px;
+      &::placeholder {
+        color: #fcfcfc;
+        font-size: 16px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+  .search {
+    width: 25px;
+    height: 25px;
+  }
+  .search-icon-div {
+    display: block;
+  }
+}
+
+@keyframes search-animate {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 150px;
+  }
+}

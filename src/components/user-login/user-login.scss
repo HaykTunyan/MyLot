@@ -1,0 +1,70 @@
+.user-login {
+  background: top left / 480px no-repeat
+      url("../../assets/images/Registration/left_bg.png"),
+    bottom right / 400px no-repeat
+      url("../../assets/images/Registration/right_bg.png");
+  padding-bottom: 100px;
+  .login-left-bg {
+    max-width: 360px;
+    width: 100%;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 50px;
+
+    .login-image-title {
+      font-family: "Trajan bold";
+      font-size: 22px;
+      color: #fff;
+      font-weight: 700;
+    }
+    .login-image-subtitle {
+      font-family: "Trajan bold";
+      font-size: 16px;
+      color: #fff;
+      font-weight: 500;
+    }
+  }
+  .user-login-input {
+    max-width: 450px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    input {
+      width: 100%;
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid #000;
+      margin-top: 10px;
+      margin-bottom: 22px;
+      letter-spacing: 1px;
+      padding-left: 10px;
+      &:first-child {
+        margin-top: 0px;
+      }
+      &:focus {
+        border: 1px solid #0288d1;
+      }
+    }
+    .user-login-button {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 30px;
+      button {
+        width: 200px;
+        background: #0288d1;
+        border: 1px solid #0288d1;
+        border-radius: 5px;
+        color: #fff;
+        padding: 8px 0;
+      }
+    }
+    .user-login-error {
+      font-size: 16px;
+      color: red;
+    }
+  }
+}

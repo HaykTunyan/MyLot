@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+<defs><style>.a{fill:#3b5998;}.b{fill:#fff;}</style></defs>
+<path class="a" d="M10,0A10,10,0,1,1,0,10,10,10,0,0,1,10,0Z"/>
+<path class="b" d="M113.591,74.611h1.541V72.547H113.32v.007c-2.2.07-2.645,1.189-2.685,2.364h0V75.95h-1.495v2.021h1.495v5.419h2.253V77.971h1.846l.357-2.021h-2.2v-.623A.7.7,0,0,1,113.591,74.611Z" transform="translate(-101.793 -68.128)"/></svg>

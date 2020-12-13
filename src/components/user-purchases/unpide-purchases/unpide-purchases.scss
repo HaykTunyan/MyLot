@@ -1,0 +1,22 @@
+.unpide-product {
+  .user-unpide-product {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .user-unpide-product-list {
+      display: flex;
+      width: calc(50% - 10px);
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .unpide-product {
+    .user-unpide-product {
+      display: block;
+      .user-unpide-product-list {
+        width: 100%;
+      }
+    }
+  }
+}

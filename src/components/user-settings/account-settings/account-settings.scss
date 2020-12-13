@@ -1,0 +1,27 @@
+.Profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .profile_name {
+    height: 40px;
+    border: 1px solid #e9ecef;
+    background: #e9ecef;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-top: 10px;
+    width: 300px;
+  }
+  .profile_submit {
+    background: #007bff;
+    color: #fff;
+    outline: none;
+    border: 1px solid #007bff;
+    font-size: 18px;
+    font-family: "Open_Sans_SemiBold";
+    border-radius: 10px;
+    width: 140px;
+    margin-top: 10px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,35 @@
+
+
+.button-component {
+    margin-left: 15px;
+    button {
+      height: 40px;
+    }
+  }
+  .step-btn {
+    background: #0288d1 0% 0% no-repeat padding-box;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    opacity: 1;
+    color: #ffffff;
+    width: 130px;
+    font-size: 11px;
+  }
+  
+  .buyCancel {
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 3px;
+    width: 100px;
+    border-color: #fff;
+    padding: 3px 5px;
+  }
+  
+  .buySucces {
+    background-color: #0288d1;
+    color: #fff;
+    border-radius: 3px;
+    border-color: #fff;
+    width: 100px;
+    padding: 3px 5px;
+  }

@@ -1,0 +1,37 @@
+.modal-popup {
+  z-index: 999;
+  width: 100%;
+  position: absolute;
+  height: 80vh;
+  background-color: #fff;
+  .modal-popup-text {
+    width: 600px;
+    height: 150px;
+    border: 1px solid #3498db;
+    border-radius: 10px;
+    position: absolute;
+    top: calc(50% - 75px);
+    left: calc(50% - 300px);
+    .close-icon {
+      float: right;
+      position: relative;
+      width: 20px;
+      height: 20px;
+      background: #3498db;
+      margin-right: 5px;
+      margin-top: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      p {
+        color: #fff;
+        position: absolute;
+        left: 5px;
+      }
+    }
+    .popup-text {
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+    }
+  }
+}

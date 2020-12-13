@@ -1,0 +1,108 @@
+// Style ContainerAuction component.
+
+.expected_auction {
+  .expect-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .expected_container {
+    background: #fff;
+    border-radius: 10px;
+    width: 100%;
+    margin: 15px auto;
+    display: flex;
+    box-sizing: border-box;
+    .product_img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      height: 160px;
+    }
+    .expected_product {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      height: 200px;
+    }
+  }
+}
+
+.last_container {
+  background: #fff;
+  border-radius: 10px;
+  width: 100%;
+  margin: 15px auto;
+  display: flex;
+  box-sizing: border-box;
+  .product_img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 160px;
+  }
+  .expected_product {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+  }
+}
+
+.live_container {
+  background: #fff;
+  border-radius: 10px;
+  width: 100%;
+  margin: 15px auto;
+  display: flex;
+  box-sizing: border-box;
+  .live_block {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+  }
+  .product_img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 160px;
+  }
+  .expected_product {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+  }
+}
+
+// h3 {
+//   color: #3d90ce;
+//   font-size: 21px;
+//   font-family: "Monsterrat Medium";
+//   text-align: center;
+//   padding-top: 13px;
+// }
+
+h4 {
+  color: #000000;
+  font-size: 16px;
+  font-family: "Monsterrat Medium";
+  text-align: center;
+  padding-top: 10px;
+}
+
+.mobile-form {
+  background: #60c9dc;
+  background: -moz-linear-gradient(left, #60c9dc 0%, #4faed5 50%, #3d90ce 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #60c9dc 0%,
+    #4faed5 50%,
+    #3d90ce 100%
+  );
+  background: linear-gradient(to right, #60c9dc 0%, #4faed5 50%, #3d90ce 100%);
+  .search-block .search-animate-input {
+    width: 100%;
+  }
+  .search-block {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  .search-block .search-animate-input .search-animate {
+    width: 85%;
+  }
+}

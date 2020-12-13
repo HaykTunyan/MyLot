@@ -1,0 +1,140 @@
+.AddItem {
+  display: inline-block;
+  width: 180px;
+  height: 46px;
+  line-height: 41px;
+  text-align: center;
+  border: 2px solid #fff;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Open-Sans SemiBold';
+  background: none;
+}
+.PopupModal {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.PopupModal h4 {
+  font-size: 25px;
+  font-family: 'Monsterrat Regular';
+  color: #000;
+  padding-bottom: 15px;
+}
+.PopupModal h3 {
+  font-size: 25px;
+  font-family: 'Monsterrat Medium';
+  color: #000;
+  padding-bottom: 55px;
+}
+.PopupModal p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Open-Sans SemiBold';
+  font-size: 20px;
+  color: #000;
+}
+.YourAccount {
+  width: 350px;
+  background-color: #0288d1;
+  font-family: 'Open-Sans Regular';
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #0288d1;
+  font-size: 18px;
+  color: #fff;
+}
+.Itemclose {
+  background: #fff;
+  outline: none;
+  border: 1px solid #fff;
+  cursor: pointer;
+  width: 15px;
+  border-radius: 50%;
+  height: 15px;
+  position: relative;
+  top: -51px;
+  left: 290px;
+}
+
+.modal_border {
+  margin-top: 15px;
+  background: #f4f6f7 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  width: 45%;
+  height: 2px;
+}
+
+.AddItem_btn {
+  background: #0288d1 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: #fff;
+  padding: 10px 40px;
+  text-align: center;
+  outline: 0 auto;
+  border: none;
+  border-radius: 5px;
+}
+
+.forgot {
+  float: right;
+  color: #000;
+}
+
+.reset_title {
+  font: 16px Open Sans;
+  letter-spacing: 0px;
+  color: #707070;
+}
+
+.reset_btn {
+  font: 20px;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+  padding: 10px 45px;
+  outline: 0 auto;
+  border: none;
+  background: #0288d1 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 6px #00000029;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.classes.resset {
+  background: #f4f6f7 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #00000029;
+  opacity: 1;
+}
+
+.resetinput {
+  height: 45px;
+}
+
+.deletSubtitle {
+  color: #707070;
+}
+
+.deleteCancel {
+  background-color: #fff;
+  color: #0288d1;
+  border-radius: 3px;
+  width: 100px;
+  border-color: #0288d1;
+  padding: 3px 5px;
+}
+
+.deleteDelete {
+  background-color: #0288d1;
+  color: #fff;
+  border-radius: 3px;
+  width: 100px;
+  padding: 3px 5px;
+}

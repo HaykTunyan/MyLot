@@ -1,0 +1,110 @@
+.phone_number {
+  display: flex;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #e9ecef;
+    background: #e9ecef;
+    border-radius: 10px;
+    padding-left: 15px;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .chane_phone_button {
+    button {
+      color: #fff;
+      background: #007bff;
+      border: 1px solid #007bff;
+      outline: none;
+      width: 140px;
+      height: 40px;
+      border-radius: 6px;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+  }
+}
+.change-password {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #e9ecef;
+    background: #e9ecef;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+  }
+  .change-password-button {
+    display: flex;
+    justify-content: center;
+    button {
+      background: #007bff;
+      border: 1px solid #007bff;
+      width: 140px;
+      margin: 0 auto;
+      border-radius: 5px;
+    }
+    
+    span {
+      color: #fff;
+      font-size: 18px;
+    }
+  }
+}
+
+.btn-delete {
+  background: #d10202 0% 0% no-repeat padding-box;
+  color: #fff;
+  opacity: 1;
+  outline: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: "Open_Sans_SemiBold";
+  letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+  .change-password {
+    .change-password-button {
+      margin-top: 20px;
+    } 
+  }
+  .phone_number {
+    flex-direction: column;
+    .email-input,
+    .phone-input {
+      width: 100%;
+    }
+    .chane_phone_button  {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px; 
+    }
+  }
+}
+
+@media ( min-width: 768px) {
+  .phone_number {
+    flex-direction: row;
+    justify-content: space-between;
+    .email-input,
+    .phone-input {
+      width: 80%;
+    }
+  }
+  .change-password {
+    .change-password-button {
+      margin-top: 10px;
+    }
+  }
+}

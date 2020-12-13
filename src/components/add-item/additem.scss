@@ -1,0 +1,17 @@
+// Add Item Style.
+
+.additem-container {
+  .additem-card {
+    z-index: 1;
+  }
+}
+.finshBtn {
+  background: #0288d1 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+.category-status {
+  .ant-steps-item-icon {
+    background: #000 !important;
+  }
+}

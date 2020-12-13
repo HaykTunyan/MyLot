@@ -1,0 +1,52 @@
+//  User Item Style.
+
+.userItem {
+  float: right;
+  background: #fff;
+  width: 250px;
+  margin-top: 15px;
+}
+.userItem h3 {
+  color: #3d90ce;
+  font-size: 18px;
+  font-family: "Monsterrat Medium";
+  text-align: center;
+  padding-top: 25px;
+}
+
+.userItemAdd {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.userItemAddIcon {
+  border: 1px solid #0288d1;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 5px;
+}
+.results {
+  margin: 0 20px;
+  border: 1px solid #0288d1;
+  background: #fff;
+  color: #0288d1;
+  cursor: pointer;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+.send {
+  border: 1px solid #fff;
+  background: #0288d1;
+  cursor: pointer;
+  color: #fff;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}

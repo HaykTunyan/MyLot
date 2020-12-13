@@ -1,0 +1,71 @@
+// Favorite Style
+
+.user-favorites-product {
+  .favorites_card {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 25px;
+    .favorite_icon {
+      background: transparent
+        linear-gradient(220deg, #2daec5 0%, #2b3d91 100%, #2b388f 100%) 0% 0%
+        no-repeat padding-box;
+      opacity: 1;
+      width: 30px;
+      height: 30px;
+      padding: 5px;
+      float: right;
+      border-radius: 20px;
+      position: relative;
+      bottom: 15px;
+      right: 15px;
+    }
+    .favorite_img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      height: 180px;
+    }
+  }
+  .user-favorites-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .favorites-card {
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+      .user-product-edit {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+      }
+      .bid-now {
+        .addBid {
+          background: #ffffff 0% 0% no-repeat padding-box;
+          border-radius: 5px;
+          border: 2px solid #0288d1;
+          opacity: 1;
+          color: #0288d1;
+          width: 100px;
+          font-size: 11px;
+        }
+      }
+    }
+    .user-favorites-list {
+      display: flex;
+      width: calc(50% - 10px);
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .user-favorites-product {
+    .user-favorites-block {
+      display: block;
+      .user-favorites-list {
+        width: 100%;
+        margin-top: 35px;
+      }
+    }
+  }
+}

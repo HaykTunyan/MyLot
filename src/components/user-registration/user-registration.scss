@@ -1,0 +1,119 @@
+.user-registration {
+  background: top left / 480px no-repeat
+      url('../../assets/images/Registration/left_bg.png'),
+    bottom right / 400px no-repeat
+      url('../../assets/images/Registration/right_bg.png');
+  padding-bottom: 100px;
+
+  .registration-left-bg {
+    max-width: 360px;
+    width: 100%;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 50px;
+    .registration-image-title {
+      font-family: 'Trajan bold';
+      font-size: 22px;
+      color: #fff;
+      font-weight: 700;
+    }
+    .registration-image-subtitle {
+      font-family: 'Trajan bold';
+      font-size: 16px;
+      color: #fff;
+      font-weight: 500;
+    }
+  }
+  .registration-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    .register-user-check {
+      width: 100%;
+      .error-text {
+        margin-bottom: 20px;
+      }
+      .text-access-low {
+        padding-left: 10px;
+        margin-top: -5px;
+      }
+    }
+    .success-request {
+      font-size: 24px;
+      font-family: 'Monsterrat Medium';
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .registration-button {
+      button {
+        width: 200px;
+        background: #0288d1;
+        border: 1px solid #0288d1;
+        border-radius: 5px;
+        color: #fff;
+        padding: 8px 0;
+      }
+    }
+    .input-text {
+      width: 100%;
+      input {
+        width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #000;
+        margin-top: 10px;
+        margin-bottom: 22px;
+        letter-spacing: 1px;
+        padding-left: 10px;
+        &:first-child {
+          margin-top: 0px;
+        }
+        &:focus {
+          border: 1px solid #0288d1;
+        }
+      }
+      span {
+        display: flex;
+        margin-top: -20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.input-helper {
+  position: relative;
+  display: inline-block;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+  }
+}
+.input-helper--checkbox {
+  padding-left: 20px;
+
+  &:before {
+    margin-top: -6.5px;
+    top: 50%;
+    left: 0;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #222;
+  }
+}
+input[type='checkbox'] {
+  display: none;
+
+  &:checked + label:before {
+    background-image: url('../../assets/images/icon/correct.png');
+    background-size: 10px;
+    background-position: center center;
+  }
+}

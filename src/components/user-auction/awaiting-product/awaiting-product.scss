@@ -1,0 +1,34 @@
+.awaiting-product {
+  .user-awaiting-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .user-awaiting-list {
+      display: flex;
+      width: calc(50% - 10px);
+    }
+  }
+}
+
+.bid-product-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  .awaiting-product-edit {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+} 
+
+@media (max-width: 700px) {
+  .awaiting-product {
+    .user-awaiting-block {
+      display: block;
+      .user-awaiting-list {
+        width: 100%;
+        margin-top: 25px;
+      }
+    }
+  }
+}
